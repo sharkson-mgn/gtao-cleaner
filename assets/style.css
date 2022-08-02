@@ -1,0 +1,49 @@
+body {
+	background-color: black;
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	color: white;
+	font-family: Arial, nonserif;
+}
+
+#body {
+	width:100%;
+	height:35rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	font-size: 3rem;
+	text-align: center;
+}
+
+#logo {
+	width: 25rem;
+}
+#czysc {
+	cursor: pointer;
+}
+#komunikat {
+	font-size: 2rem;
+}
+#licznik {
+	font-weight: bold;
+}
+
+#c {
+	font-size: 1rem;
+	color: grey;
+}
